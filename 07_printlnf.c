@@ -17,15 +17,15 @@ void PrintLNF(const char *format, ...) {
 #define Print_INT(format, ...) printf(#format"\t%d""\n", format)
 #define PrintLNF2(format, ...) printf("("__FILE__"%d)\t%s\t"format"\n", __LINE__, __FUNCTION__, ##__VA_ARGS__)
 
-int main() {
-  int value = 2;
-  PrintLNF("hello word\t %d", value);
-  PrintLNF2("Hello Word\t %d", value);
-  PrintLNF2("Hello Word");
-  Print_INT(value);
-  int X = 3;
-  Print_INT(X);
-  Print_INT(3 + 4);
-
-  return 0;
-}
+//int main() {
+//  int value = 2;
+//  PrintLNF("hello word\t %d", value);
+//  PrintLNF2("Hello Word\t %d", value);
+//  PrintLNF2("Hello Word");
+//  Print_INT(value);
+//  int X = 3;
+//  Print_INT(X);
+//  Print_INT(3 + 4);
+//
+//  return 0;
+//}

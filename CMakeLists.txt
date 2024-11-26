@@ -3,7 +3,5 @@ project(untitled_C C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled_C 01.c
-        05.c
-        06_hanoi.c
-        07_printlnf.c)
+add_executable(untitled_C
+        shuffle_array.c)

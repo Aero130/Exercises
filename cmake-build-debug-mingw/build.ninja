@@ -49,26 +49,8 @@ cmake_ninja_workdir = D$:/Code/CLionProjects/untitled_C/cmake-build-debug-mingw/
 
 build cmake_object_order_depends_target_untitled_C: phony || CMakeFiles/untitled_C.dir
 
-build CMakeFiles/untitled_C.dir/01.c.obj: C_COMPILER__untitled_C_unscanned_Debug D$:/Code/CLionProjects/untitled_C/01.c || cmake_object_order_depends_target_untitled_C
-  DEP_FILE = CMakeFiles\untitled_C.dir\01.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled_C.dir
-
-build CMakeFiles/untitled_C.dir/05.c.obj: C_COMPILER__untitled_C_unscanned_Debug D$:/Code/CLionProjects/untitled_C/05.c || cmake_object_order_depends_target_untitled_C
-  DEP_FILE = CMakeFiles\untitled_C.dir\05.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled_C.dir
-
-build CMakeFiles/untitled_C.dir/06_hanoi.c.obj: C_COMPILER__untitled_C_unscanned_Debug D$:/Code/CLionProjects/untitled_C/06_hanoi.c || cmake_object_order_depends_target_untitled_C
-  DEP_FILE = CMakeFiles\untitled_C.dir\06_hanoi.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled_C.dir
-
-build CMakeFiles/untitled_C.dir/07_printlnf.c.obj: C_COMPILER__untitled_C_unscanned_Debug D$:/Code/CLionProjects/untitled_C/07_printlnf.c || cmake_object_order_depends_target_untitled_C
-  DEP_FILE = CMakeFiles\untitled_C.dir\07_printlnf.c.obj.d
+build CMakeFiles/untitled_C.dir/shuffle_array.c.obj: C_COMPILER__untitled_C_unscanned_Debug D$:/Code/CLionProjects/untitled_C/shuffle_array.c || cmake_object_order_depends_target_untitled_C
+  DEP_FILE = CMakeFiles\untitled_C.dir\shuffle_array.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled_C.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled_C.dir
@@ -81,7 +63,7 @@ build CMakeFiles/untitled_C.dir/07_printlnf.c.obj: C_COMPILER__untitled_C_unscan
 #############################################
 # Link the executable untitled_C.exe
 
-build untitled_C.exe: C_EXECUTABLE_LINKER__untitled_C_Debug CMakeFiles/untitled_C.dir/01.c.obj CMakeFiles/untitled_C.dir/05.c.obj CMakeFiles/untitled_C.dir/06_hanoi.c.obj CMakeFiles/untitled_C.dir/07_printlnf.c.obj
+build untitled_C.exe: C_EXECUTABLE_LINKER__untitled_C_Debug CMakeFiles/untitled_C.dir/shuffle_array.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled_C.dir
