@@ -4,6 +4,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
+#include "./include/io_utils.h"
 
 //交换数组中两个元素的位置
 void SwapElements(int Array[], int First, int Second)
@@ -31,18 +32,17 @@ void ShuffleArray(int Array[], int Length)
   }
 }
 
-int main(){
-  int Players[50];
-  for(int i=0; i<50; ++i){
-    Players[i] = i;
-  }
-  for(int i=0; i<50; ++i){
-    printf("%d\t",Players[i]);
-  }
-  printf("\n");
-  ShuffleArray(Players, 50);
-  for(int i=0; i<50; ++i){
-    printf("%d\t",Players[i]);
-  }
-  return 0;
-}
+//int main(){
+//  int Players[50];
+//  for(int i=0; i<50; ++i){
+//    Players[i] = i;
+//  }
+//  for(int i=0; i<50; ++i){
+//    printf("%d\t",Players[i]);
+//  }
+//  printf("\n");
+//  ShuffleArray(Players, 50);
+//
+//  PRINT_INT_ARRAY(Players, 50);
+//  return 0;
+//}
