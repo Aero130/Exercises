@@ -26,21 +26,19 @@ void ShuffleArray(int Array[], int Length)
 void quick_sort(int arr[], int left, int right)
 {
   if (left >= right) return;
-  int i = left-1, medium = arr[left], j = right+1;
+  int i = left, medium = arr[left], j = right;
   while (i < j)
   {
-    do i ++ ; while (arr[i] < medium);
-    do j -- ; while (arr[j] > medium);
+    while (arr[i] < medium) i++;
+    while (arr[j] > medium) j--;
 //    for (i; arr[i] < medium; ++i)
 //    for (j; arr[j] > medium; --j)
     if(i < j)
     {
-          int temp = arr[i];
-          arr[i] = arr[j];
-          arr[j] = temp;
+          SwapElements(arr, i, j);
     }
   }
-  quick_sort(arr, left, j);
+  quick_sort(arr, left, j - 1);
   quick_sort(arr, j + 1, right);
 }
 
