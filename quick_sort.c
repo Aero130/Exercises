@@ -74,8 +74,7 @@ void quick_sort(int arr[], int left, int right)
 //  quick_sort(q, l, j);
 //  quick_sort(q, j + 1, r);
 //}
-
-int main()
+/*int main()
 {
   int Players[50] = {0};             //新建数组并初始化
   for (int i = 0; i < 50; i++)
@@ -88,4 +87,4 @@ int main()
   quick_sort(Players, 0, 49);      //快排
   PRINT_INT_ARRAY(Players, 50);
   return 0;
-}
+}*/

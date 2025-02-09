@@ -57,6 +57,14 @@ build CMakeFiles\01.c.dir\01.c.obj: C_COMPILER__01.2ec_unscanned_Debug D$:\Code\
   TARGET_COMPILE_PDB = CMakeFiles\01.c.dir\
   TARGET_PDB = 01.c.pdb
 
+build CMakeFiles\01.c.dir\Linked_List.c.obj: C_COMPILER__01.2ec_unscanned_Debug D$:\Code\CLionProjects\untitled_C\Linked_List.c || cmake_object_order_depends_target_01.c
+  FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -std:c11 -MDd -Zi
+  INCLUDES = -ID:\Code\CLionProjects\untitled_C\include
+  OBJECT_DIR = CMakeFiles\01.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\01.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\01.c.dir\
+  TARGET_PDB = 01.c.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 01.c
@@ -65,7 +73,7 @@ build CMakeFiles\01.c.dir\01.c.obj: C_COMPILER__01.2ec_unscanned_Debug D$:\Code\
 #############################################
 # Link the executable 01.c.exe
 
-build 01.c.exe: C_EXECUTABLE_LINKER__01.2ec_Debug CMakeFiles\01.c.dir\01.c.obj
+build 01.c.exe: C_EXECUTABLE_LINKER__01.2ec_Debug CMakeFiles\01.c.dir\01.c.obj CMakeFiles\01.c.dir\Linked_List.c.obj
   FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -94,6 +102,14 @@ build CMakeFiles\05.c.dir\05.c.obj: C_COMPILER__05.2ec_unscanned_Debug D$:\Code\
   TARGET_COMPILE_PDB = CMakeFiles\05.c.dir\
   TARGET_PDB = 05.c.pdb
 
+build CMakeFiles\05.c.dir\Linked_List.c.obj: C_COMPILER__05.2ec_unscanned_Debug D$:\Code\CLionProjects\untitled_C\Linked_List.c || cmake_object_order_depends_target_05.c
+  FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -std:c11 -MDd -Zi
+  INCLUDES = -ID:\Code\CLionProjects\untitled_C\include
+  OBJECT_DIR = CMakeFiles\05.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\05.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\05.c.dir\
+  TARGET_PDB = 05.c.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 05.c
@@ -102,7 +118,7 @@ build CMakeFiles\05.c.dir\05.c.obj: C_COMPILER__05.2ec_unscanned_Debug D$:\Code\
 #############################################
 # Link the executable 05.c.exe
 
-build 05.c.exe: C_EXECUTABLE_LINKER__05.2ec_Debug CMakeFiles\05.c.dir\05.c.obj
+build 05.c.exe: C_EXECUTABLE_LINKER__05.2ec_Debug CMakeFiles\05.c.dir\05.c.obj CMakeFiles\05.c.dir\Linked_List.c.obj
   FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -131,6 +147,14 @@ build CMakeFiles\06_hanoi.c.dir\06_hanoi.c.obj: C_COMPILER__06_hanoi.2ec_unscann
   TARGET_COMPILE_PDB = CMakeFiles\06_hanoi.c.dir\
   TARGET_PDB = 06_hanoi.c.pdb
 
+build CMakeFiles\06_hanoi.c.dir\Linked_List.c.obj: C_COMPILER__06_hanoi.2ec_unscanned_Debug D$:\Code\CLionProjects\untitled_C\Linked_List.c || cmake_object_order_depends_target_06_hanoi.c
+  FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -std:c11 -MDd -Zi
+  INCLUDES = -ID:\Code\CLionProjects\untitled_C\include
+  OBJECT_DIR = CMakeFiles\06_hanoi.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\06_hanoi.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\06_hanoi.c.dir\
+  TARGET_PDB = 06_hanoi.c.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 06_hanoi.c
@@ -139,7 +163,7 @@ build CMakeFiles\06_hanoi.c.dir\06_hanoi.c.obj: C_COMPILER__06_hanoi.2ec_unscann
 #############################################
 # Link the executable 06_hanoi.c.exe
 
-build 06_hanoi.c.exe: C_EXECUTABLE_LINKER__06_hanoi.2ec_Debug CMakeFiles\06_hanoi.c.dir\06_hanoi.c.obj
+build 06_hanoi.c.exe: C_EXECUTABLE_LINKER__06_hanoi.2ec_Debug CMakeFiles\06_hanoi.c.dir\06_hanoi.c.obj CMakeFiles\06_hanoi.c.dir\Linked_List.c.obj
   FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -168,6 +192,14 @@ build CMakeFiles\07_printlnf.c.dir\07_printlnf.c.obj: C_COMPILER__07_printlnf.2e
   TARGET_COMPILE_PDB = CMakeFiles\07_printlnf.c.dir\
   TARGET_PDB = 07_printlnf.c.pdb
 
+build CMakeFiles\07_printlnf.c.dir\Linked_List.c.obj: C_COMPILER__07_printlnf.2ec_unscanned_Debug D$:\Code\CLionProjects\untitled_C\Linked_List.c || cmake_object_order_depends_target_07_printlnf.c
+  FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -std:c11 -MDd -Zi
+  INCLUDES = -ID:\Code\CLionProjects\untitled_C\include
+  OBJECT_DIR = CMakeFiles\07_printlnf.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\07_printlnf.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\07_printlnf.c.dir\
+  TARGET_PDB = 07_printlnf.c.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 07_printlnf.c
@@ -176,7 +208,7 @@ build CMakeFiles\07_printlnf.c.dir\07_printlnf.c.obj: C_COMPILER__07_printlnf.2e
 #############################################
 # Link the executable 07_printlnf.c.exe
 
-build 07_printlnf.c.exe: C_EXECUTABLE_LINKER__07_printlnf.2ec_Debug CMakeFiles\07_printlnf.c.dir\07_printlnf.c.obj
+build 07_printlnf.c.exe: C_EXECUTABLE_LINKER__07_printlnf.2ec_Debug CMakeFiles\07_printlnf.c.dir\07_printlnf.c.obj CMakeFiles\07_printlnf.c.dir\Linked_List.c.obj
   FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -187,6 +219,43 @@ build 07_printlnf.c.exe: C_EXECUTABLE_LINKER__07_printlnf.2ec_Debug CMakeFiles\0
   TARGET_FILE = 07_printlnf.c.exe
   TARGET_IMPLIB = 07_printlnf.c.lib
   TARGET_PDB = 07_printlnf.c.pdb
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Linked_List.c
+
+
+#############################################
+# Order-only phony target for Linked_List.c
+
+build cmake_object_order_depends_target_Linked_List.c: phony || CMakeFiles\Linked_List.c.dir
+
+build CMakeFiles\Linked_List.c.dir\Linked_List.c.obj: C_COMPILER__Linked_List.2ec_unscanned_Debug D$:\Code\CLionProjects\untitled_C\Linked_List.c || cmake_object_order_depends_target_Linked_List.c
+  FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -std:c11 -MDd -Zi
+  INCLUDES = -ID:\Code\CLionProjects\untitled_C\include
+  OBJECT_DIR = CMakeFiles\Linked_List.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\Linked_List.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\Linked_List.c.dir\
+  TARGET_PDB = Linked_List.c.pdb
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Linked_List.c
+
+
+#############################################
+# Link the executable Linked_List.c.exe
+
+build Linked_List.c.exe: C_EXECUTABLE_LINKER__Linked_List.2ec_Debug CMakeFiles\Linked_List.c.dir\Linked_List.c.obj
+  FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
+  LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
+  OBJECT_DIR = CMakeFiles\Linked_List.c.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\Linked_List.c.dir\
+  TARGET_FILE = Linked_List.c.exe
+  TARGET_IMPLIB = Linked_List.c.lib
+  TARGET_PDB = Linked_List.c.pdb
 
 # =============================================================================
 # Object build statements for EXECUTABLE target quick_sort.c
@@ -205,6 +274,14 @@ build CMakeFiles\quick_sort.c.dir\quick_sort.c.obj: C_COMPILER__quick_sort.2ec_u
   TARGET_COMPILE_PDB = CMakeFiles\quick_sort.c.dir\
   TARGET_PDB = quick_sort.c.pdb
 
+build CMakeFiles\quick_sort.c.dir\Linked_List.c.obj: C_COMPILER__quick_sort.2ec_unscanned_Debug D$:\Code\CLionProjects\untitled_C\Linked_List.c || cmake_object_order_depends_target_quick_sort.c
+  FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -std:c11 -MDd -Zi
+  INCLUDES = -ID:\Code\CLionProjects\untitled_C\include
+  OBJECT_DIR = CMakeFiles\quick_sort.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\quick_sort.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\quick_sort.c.dir\
+  TARGET_PDB = quick_sort.c.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target quick_sort.c
@@ -213,7 +290,7 @@ build CMakeFiles\quick_sort.c.dir\quick_sort.c.obj: C_COMPILER__quick_sort.2ec_u
 #############################################
 # Link the executable quick_sort.c.exe
 
-build quick_sort.c.exe: C_EXECUTABLE_LINKER__quick_sort.2ec_Debug CMakeFiles\quick_sort.c.dir\quick_sort.c.obj
+build quick_sort.c.exe: C_EXECUTABLE_LINKER__quick_sort.2ec_Debug CMakeFiles\quick_sort.c.dir\quick_sort.c.obj CMakeFiles\quick_sort.c.dir\Linked_List.c.obj
   FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -242,6 +319,14 @@ build CMakeFiles\shuffle_array.c.dir\shuffle_array.c.obj: C_COMPILER__shuffle_ar
   TARGET_COMPILE_PDB = CMakeFiles\shuffle_array.c.dir\
   TARGET_PDB = shuffle_array.c.pdb
 
+build CMakeFiles\shuffle_array.c.dir\Linked_List.c.obj: C_COMPILER__shuffle_array.2ec_unscanned_Debug D$:\Code\CLionProjects\untitled_C\Linked_List.c || cmake_object_order_depends_target_shuffle_array.c
+  FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -std:c11 -MDd -Zi
+  INCLUDES = -ID:\Code\CLionProjects\untitled_C\include
+  OBJECT_DIR = CMakeFiles\shuffle_array.c.dir
+  OBJECT_FILE_DIR = CMakeFiles\shuffle_array.c.dir
+  TARGET_COMPILE_PDB = CMakeFiles\shuffle_array.c.dir\
+  TARGET_PDB = shuffle_array.c.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target shuffle_array.c
@@ -250,7 +335,7 @@ build CMakeFiles\shuffle_array.c.dir\shuffle_array.c.obj: C_COMPILER__shuffle_ar
 #############################################
 # Link the executable shuffle_array.c.exe
 
-build shuffle_array.c.exe: C_EXECUTABLE_LINKER__shuffle_array.2ec_Debug CMakeFiles\shuffle_array.c.dir\shuffle_array.c.obj
+build shuffle_array.c.exe: C_EXECUTABLE_LINKER__shuffle_array.2ec_Debug CMakeFiles\shuffle_array.c.dir\shuffle_array.c.obj CMakeFiles\shuffle_array.c.dir\Linked_List.c.obj
   FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
@@ -296,6 +381,8 @@ build 06_hanoi.c: phony 06_hanoi.c.exe
 
 build 07_printlnf.c: phony 07_printlnf.c.exe
 
+build Linked_List.c: phony Linked_List.c.exe
+
 build quick_sort.c: phony quick_sort.c.exe
 
 build shuffle_array.c: phony shuffle_array.c.exe
@@ -308,7 +395,7 @@ build shuffle_array.c: phony shuffle_array.c.exe
 #############################################
 # Folder: D:/Code/CLionProjects/untitled_C/cmake-build-debug-msvc
 
-build all: phony 01.c.exe 05.c.exe 06_hanoi.c.exe 07_printlnf.c.exe quick_sort.c.exe shuffle_array.c.exe
+build all: phony 01.c.exe 05.c.exe 06_hanoi.c.exe 07_printlnf.c.exe Linked_List.c.exe quick_sort.c.exe shuffle_array.c.exe
 
 # =============================================================================
 # Built-in targets
@@ -317,14 +404,14 @@ build all: phony 01.c.exe 05.c.exe 06_hanoi.c.exe 07_printlnf.c.exe quick_sort.c
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles\3.26.4\CMakeCCompiler.cmake CMakeFiles\3.26.4\CMakeCXXCompiler.cmake CMakeFiles\3.26.4\CMakeRCCompiler.cmake CMakeFiles\3.26.4\CMakeSystem.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake D$:\Code\CLionProjects\untitled_C\CMakeLists.txt
+build build.ninja: RERUN_CMAKE | CMakeCache.txt CMakeFiles\3.26.4\CMakeCCompiler.cmake CMakeFiles\3.26.4\CMakeCXXCompiler.cmake CMakeFiles\3.26.4\CMakeRCCompiler.cmake CMakeFiles\3.26.4\CMakeSystem.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake D$:\Code\CLionProjects\untitled_C\CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build CMakeCache.txt CMakeFiles\3.26.4\CMakeCCompiler.cmake CMakeFiles\3.26.4\CMakeCXXCompiler.cmake CMakeFiles\3.26.4\CMakeRCCompiler.cmake CMakeFiles\3.26.4\CMakeSystem.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompiler.cmake.in D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXCompilerABI.cpp D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCompilerIdDetection.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCXXCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompileFeatures.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerABI.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeDetermineCompilerId.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeFindBinUtils.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitIncludeInfo.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseImplicitLinkInfo.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeParseLibraryArchitecture.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCXXCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeTestCompilerCommon.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ADSP-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMCC-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\ARMClang-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\AppleClang-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Borland-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Clang-DetermineCompilerInternal.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Cray-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Embarcadero-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Fujitsu-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GHS-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\HP-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IAR-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Intel-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVHPC-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\NVIDIA-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PGI-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\PathScale-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SCO-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\TI-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Tasking-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\Watcom-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XL-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Internal\FeatureTesting.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-Determine-CXX.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake D$:\Code\CLionProjects\untitled_C\CMakeLists.txt: phony
+build CMakeCache.txt CMakeFiles\3.26.4\CMakeCCompiler.cmake CMakeFiles\3.26.4\CMakeCXXCompiler.cmake CMakeFiles\3.26.4\CMakeRCCompiler.cmake CMakeFiles\3.26.4\CMakeSystem.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCXXInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeCommonLanguageInclude.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeGenericSystem.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeInitializeConfigs.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeLanguageInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeRCInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInformation.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\CMakeSystemSpecificInitialize.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\CMakeCommonCompilerMacros.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-C.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC-CXX.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Compiler\MSVC.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-C.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC-CXX.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows-MSVC.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\Windows.cmake D$:\APP\JetBrains\CLion$ 2023.2.5\bin\cmake\win\x64\share\cmake-3.26\Modules\Platform\WindowsPaths.cmake D$:\Code\CLionProjects\untitled_C\CMakeLists.txt: phony
 
 
 #############################################
